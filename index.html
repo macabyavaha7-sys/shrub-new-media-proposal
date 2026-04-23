@@ -449,7 +449,7 @@
 
     .style-grid {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
       gap: 18px;
     }
 
@@ -462,7 +462,7 @@
 
     .style-card {
       overflow: hidden;
-      min-height: 540px;
+      min-height: 420px;
       display: flex;
       flex-direction: column;
       cursor: zoom-in;
@@ -511,10 +511,10 @@
     }
 
     .style-body {
-      padding: 24px;
+      padding: 18px;
       display: flex;
       flex-direction: column;
-      gap: 12px;
+      gap: 10px;
       flex: 1;
     }
 
@@ -1037,6 +1037,110 @@
       </section>
 
       <section id="styles">
+        <div class="section-head">
+          <h2>五种网站风格</h2>
+          <p>五选一，先定气质。</p>
+        </div>
+
+        <div class="style-grid">
+          <article class="style-card" data-images="assets/references/style-documentary.png|assets/references/style-documentary-detail-1.png|assets/references/style-documentary-detail-2.png">
+            <div class="style-preview">
+              <div class="style-screen-scroll">
+                <img src="assets/references/style-documentary.png" alt="影像纪风格参考" />
+              </div>
+            </div>
+            <div class="style-body">
+              <span class="tag">Style A</span>
+              <h3>影像纪</h3>
+              <p>电影化叙事。</p>
+              <div class="meta">
+                <span>大片首屏</span>
+                <span>镜头感</span>
+                <span>故事线</span>
+              </div>
+              <p>适合案例展示。</p>
+            </div>
+          </article>
+
+          <article class="style-card" data-images="assets/references/style-archive-top.png|assets/references/style-archive-people.png">
+            <div class="style-preview">
+              <div class="style-screen-scroll">
+                <img src="assets/references/style-archive-top.png" alt="档案馆风格参考" />
+              </div>
+            </div>
+            <div class="style-body">
+              <span class="tag">Style B</span>
+              <h3>档案馆</h3>
+              <p>研究型质感。</p>
+              <div class="meta">
+                <span>出版感</span>
+                <span>资料库</span>
+                <span>可信度</span>
+              </div>
+              <p>适合文旅汇报。</p>
+            </div>
+          </article>
+
+          <article class="style-card" data-images="assets/references/style-ai-coexist.svg|assets/references/style-ai-coexist-detail.svg">
+            <div class="style-preview">
+              <div class="style-screen-scroll">
+                <img src="assets/references/style-ai-coexist.svg" alt="智生长风格参考" />
+              </div>
+            </div>
+            <div class="style-body">
+              <span class="tag">Style C</span>
+              <h3>智生长</h3>
+              <p>AIGC 共创。</p>
+              <div class="meta">
+                <span>生成式</span>
+                <span>轻科技</span>
+                <span>协同感</span>
+              </div>
+              <p>适合技术背书。</p>
+            </div>
+          </article>
+
+          <article class="style-card" data-images="assets/references/style-future-city.svg|assets/references/style-future-city-detail.svg">
+            <div class="style-preview">
+              <div class="style-screen-scroll">
+                <img src="assets/references/style-future-city.svg" alt="未来城风格参考" />
+              </div>
+            </div>
+            <div class="style-body">
+              <span class="tag">Style D</span>
+              <h3>未来城</h3>
+              <p>明亮科幻。</p>
+              <div class="meta">
+                <span>城市界面</span>
+                <span>光感</span>
+                <span>坐标感</span>
+              </div>
+              <p>适合城市文化。</p>
+            </div>
+          </article>
+
+          <article class="style-card" data-images="assets/references/style-ad-poster.svg|assets/references/style-ad-poster-detail.svg">
+            <div class="style-preview">
+              <div class="style-screen-scroll">
+                <img src="assets/references/style-ad-poster.svg" alt="广告派风格参考" />
+              </div>
+            </div>
+            <div class="style-body">
+              <span class="tag">Style E</span>
+              <h3>广告派</h3>
+              <p>强传播视觉。</p>
+              <div class="meta">
+                <span>大字报</span>
+                <span>高记忆</span>
+                <span>发布感</span>
+              </div>
+              <p>适合招聘传播。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="styles-old" hidden>
         <div class="section-head">
           <h2>三种网站设计风格参考</h2>
           <p>三个方向不按个人喜好选择，而按团队对外表达目标选择。最终只需从三者中确定一个主方向。</p>
